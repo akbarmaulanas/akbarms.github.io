@@ -1,0 +1,59 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "18fbe665f64-layer-2",
+      "mode": "feature",
+      "name": "Administrasi Kecamatan",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "namobj",
+      "valueFields": [
+        "Gardu"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    }
+  ]
+}
